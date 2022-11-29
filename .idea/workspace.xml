@@ -2,11 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3f0f0c2-def8-4cfe-9dc6-6de90b3a0b31" name="Changes" comment="Initial">
-      <change afterPath="$PROJECT_DIR$/shop/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/config-overrides.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/Shop.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/Shop.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/tsconfig.paths.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/Project.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/assets/styles/global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/components/Icons/Icons.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/components/Icons/Icons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/components/Shop/Shop.config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/components/Shop/Shop.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/components/Shop/components/Header/Header.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/components/Shop/components/Header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/contexts/CharacterContext.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/typings/Character.typings.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/typings/List.typings.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/typings/Shop.typings.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/ui/Filter/Filter.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/ui/Filter/Filter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/ui/List/List.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/ui/List/List.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/shop/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/shop/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/Shop.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/Project.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/Shop.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/components/Shop/Shop.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/assets/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shop/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/tsconfig.paths.json" beforeDir="false" afterPath="$PROJECT_DIR$/shop/tsconfig.paths.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -49,6 +69,12 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\prost\Documents\GitHub\intarial_rage_shop\shop" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\prost\Documents\GitHub\intarial_rage_shop\shop\src\ui" />
+      <recent name="C:\Users\prost\Documents\GitHub\intarial_rage_shop\shop\src\components\Shop" />
+      <recent name="C:\Users\prost\Documents\GitHub\intarial_rage_shop\shop\src\components\Shop\components" />
+      <recent name="C:\Users\prost\Documents\GitHub\intarial_rage_shop\shop\src\assets\styles" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -58,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669715780598</updated>
-      <workItem from="1669715781804" duration="2101000" />
+      <workItem from="1669715781804" duration="6051000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1669715833453</created>

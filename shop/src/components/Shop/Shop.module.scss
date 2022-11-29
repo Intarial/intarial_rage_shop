@@ -1,0 +1,79 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background: rgba(19, 20, 20, 0.92);
+  color: #FFFFFF;
+  padding-left: 80px;
+
+  main {
+    width: 100%;
+  }
+
+  footer {
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: flex-start;
+
+    .title {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+    }
+
+    .money {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+
+      .moneyBlock {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .name {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 22px;
+          color: rgba(255, 255, 255, 0.5);
+        }
+
+        .value {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          font-weight: 600;
+          font-size: 30px;
+          line-height: 37px;
+          color: #C2F532;
+
+          svg {
+            width: 20px;
+            height: 20px;
+
+            path {
+              fill: #C2F532;
+            }
+          }
+        }
+
+        &:nth-last-child(1) {
+          .value {
+            color: rgba(255, 255, 255, 0.8);
+
+            svg {
+              path {
+                fill: #C4C4C4;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

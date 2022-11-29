@@ -2,9 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@assets/*": ["./src/assets/*"],
-      "@ui/*": ["./src/ui/*"],
-      "@typings/*": ["./src/typings/*"],
+      "@styles/*": ["./src/assets/styles/*"],
       "@icons": ["./src/components/Icons/Icons.tsx"]
     }
   }

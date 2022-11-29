@@ -1,0 +1,24 @@
+{
+  "navigation": [
+    {
+      "name": "Еда и продукты",
+      "trigger": "eats"
+    },
+    {
+      "name": "Напитки",
+      "trigger": "waters"
+    },
+    {
+      "name": "Медикаменты",
+      "trigger": "heals"
+    },
+    {
+      "name": "Электроника",
+      "trigger": "electronics"
+    },
+    {
+      "name": "Прочее",
+      "trigger": "others"
+    }
+  ]
+}

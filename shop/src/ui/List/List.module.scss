@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+
+  .list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .listBlock {
+    width: 422px;
+    height: 76px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.9);
+  }
+}
